@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Login</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css"/>
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body class="bg-primary">
+        <h1>Login</h1>
+        <div class="row">
+            <div class="col-sm-4">
+                <form method="POST" action="logincontroller.jsp">
+                    <div>
+                        <label class="form-label">Username</label>
+                        <input type="text" placeholder="Username" name="txtusername" id="txtusername" class="form-control" required/>
+                    </div>
+                    
+                    <div>
+                        <label class="form-label">Password</label>
+                        <input type="password" name="txtpassword" id="txtpassword" class="form-control" placeholder="Paswword" required/>
+                    </div>
+                    <br>
+                    <div>
+                        <input type="submit" value="Login" name="btnlogin" id="btnlogin" class="btn btn-danger"/>
+                        <input type="reset" value="Reset" name="btnreset" id="btnreset" class="btn btn-danger"/>
+                    </div>
+                </form>
+            </div>
+            <div class="col-sm-8">
+                <img src="gambar/Studentbg4.png" alt=""/>
+            </div>
+            
+        </div>  
+    </body>
+</html>
